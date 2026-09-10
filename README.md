@@ -23,6 +23,16 @@ Experimental settings:
 - Test rounds: 20
 - Condition numbers: 1, 1e2, 1e4, 1e6, 1e8, 1e10, 1e12
 
+Results:
+
+- Orthogonality Error:
+
+![Orthogonality Error](results/orthogonality-error.png)
+
+- Reconstruction Error:
+
+![Reconstruction Error](results/reconstruction-error.png)
+
 ## Runtime Experiment
 
 A simple runtime comparison is also included as a follow-up extension.
@@ -34,6 +44,10 @@ Matrix sizes:
 - 400 × 200
 
 Each method is run 100 times and the average runtime is recorded.
+
+Runtime Results:
+
+![Runtime Comparison](results/runtime-comparison.png)
 
 ## Project Structure
 
