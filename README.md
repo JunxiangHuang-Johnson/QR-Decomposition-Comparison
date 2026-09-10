@@ -33,7 +33,7 @@ Matrix sizes:
 - 200 × 100
 - 400 × 200
 
-Each method is run 20 times and the average runtime is recorded.
+Each method is run 100 times and the average runtime is recorded.
 
 ## Project Structure
 
