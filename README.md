@@ -49,6 +49,16 @@ Runtime Results:
 
 ![Runtime Comparison](results/runtime-comparison.png)
 
+## Key Findings
+
+- CGS becomes increasingly unstable as the condition number grows, with a large increase in orthogonality error.
+- MGS is more numerically stable than CGS, but its orthogonality error also increases for highly ill-conditioned matrices.
+- Householder maintains very low orthogonality error across all tested condition numbers.
+- All three methods maintain small reconstruction errors in the experiments.
+- In the runtime experiment, CGS and MGS have similar performance, while the Householder implementation requires more runtime, especially for larger matrices.
+
+The runtime results are based on the Java implementations in this project and are intended as an empirical comparison rather than a general performance ranking of the algorithms.
+
 ## Project Structure
 
 ```text
