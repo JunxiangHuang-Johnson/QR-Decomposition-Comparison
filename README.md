@@ -59,6 +59,16 @@ Runtime Results:
 
 The runtime results are based on the Java implementations in this project and are intended as an empirical comparison rather than a general performance ranking of the algorithms.
 
+## Original Research Poster
+
+This project was originally conducted as a summer research project focusing on the numerical stability of QR decomposition methods.
+
+The runtime experiment presented above was added later as a follow-up extension.
+
+[View the original research poster (PDF)](poster/QR-Decomposition-Poster.pdf)
+
+[Download the original PowerPoint file](poster/QR-Decomposition-Poster.pptx)
+
 ## Project Structure
 
 ```text
